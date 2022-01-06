@@ -279,8 +279,8 @@ a:hover {
 }
 
 .row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -483,6 +483,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    margin: 10px;
 }
 
 .icon-lg {
