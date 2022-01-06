@@ -7,6 +7,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -741,11 +747,12 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    max-width: 280px;
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .avatar {
